@@ -1,0 +1,23 @@
+{
+    "name": "l29_6_2",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node appz",
+        "dev": "nodemon app"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "dotenv": "^16.0.3",
+        "express": "^4.17.2",
+        "joi": "^17.6.0",
+        "jsonwebtoken": "^8.5.1",
+        "moment": "^2.29.4",
+        "mongoose": "^6.4.4",
+        "nodemon": "^2.0.19",
+        "twilio": "^3.80.1"
+    }
+}
