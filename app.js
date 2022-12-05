@@ -50,5 +50,5 @@ routesInit(app);
 // ייצור שרת שמאזין לכניסה לפורט 3000
 const server = http.createServer(app);
 
-let port = process.env.PORT || "3008";
+let port = process.env.PORT || "3000";
 server.listen(port);
